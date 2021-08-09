@@ -1,19 +1,26 @@
-const month = process.argv[2];
+var month = Number(process.argv[2]);
 switch(month){
-  case rank >= 2 && rank <= 4:
+  case month = 2: 
+  case month = 3:
+  case month = 4: 
     console.log("春");
    break;
   
-  case rank >= 5 && rank <= 7:
+  case month = 5: 
+  case month = 6:
+  case month = 7:
      console.log("夏");
    break;
 
-  case rank >= 8 && rank <= 10:
+  case month = 8:  
+  case month = 9:
+  case month = 10:
      console.log("秋");
    break;
 
-  case rank >= 11 && rank <= 12:
-  case rank = 1:
+  case month = 11: 
+  case month = 12:
+  case month = 1:
      console.log("冬");
    break;
 
