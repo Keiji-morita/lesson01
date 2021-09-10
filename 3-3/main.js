@@ -10,5 +10,6 @@ for( let i = 1; i <= tatelines; i++){
       for( let j = 2; j <= i * 2; j++){
      array.push("*")
    }
-  console.log(array.join(""))
+  
+   console.log(array.join(""))
 };
